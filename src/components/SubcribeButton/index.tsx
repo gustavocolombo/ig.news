@@ -34,6 +34,7 @@ export default function SubscribeButton({priceId}: SubscriptionButtonProps){
     <button
       type="button"
       className={styles.subcribeButton}
+      onClick={handleCreateCheckoutSession}
     >
       Subcribe now
     </button>
